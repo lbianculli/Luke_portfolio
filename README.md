@@ -25,7 +25,7 @@ This repository will walk through a holistic process of preprocessing and premod
 
 ## [Project 3 - US Equity Statistical Analysis (R)](https://github.com/lbianculli/us_equity_stat_analysis)
 
-![](/images/factor_corr_mat.jpeg)
+![](/images/factor_corr_mat.png)
 
 This repository runs through a host of analyses examining the statstical properties and structure of US equity returns and how they relate to a portfolio of assets, starting with data collected during a machine learning analysis of US equities (Project 2). Unlike the rest of the projects outlined here, this repo will use strictly R code. 
 
