@@ -1,6 +1,7 @@
 # Luke_portfolio
 
-## Project 1 - [https://github.com/lbianculli/options_nb](Option Trading and Analysis)
+## Project 1 - 
+[https://github.com/lbianculli/options_nb](Option Trading and Analysis)
 
 A tutorial notebook that examines how options data can be scraped using Python and how that data can be implemented for trading strategies. 
 
@@ -25,7 +26,8 @@ The table of contents, which can be found inside, is as follows:
 The full repo can be found here: https://github.com/lbianculli/options
 
 
-## Project 2 - [https://github.com/lbianculli/us_equity_analysis](US Equity Machine Learning Research)
+## Project 2 - 
+[https://github.com/lbianculli/us_equity_analysis](US Equity Machine Learning Research)
 
 This repository will walk through a holistic process of preprocessing and premodeling data in preparation for feeding a machine learning algorithm. After premodeling various models are explored, the best of which is thoroughly evaluated. The files within the repo, which follow standard steps for machine learning analysis, can be broken down as follows:
 
