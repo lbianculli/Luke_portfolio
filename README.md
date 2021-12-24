@@ -11,6 +11,8 @@ This walkthrough starts by first scraping put and call pricing data for commonly
 
 ## [Project 2 - US Equity Machine Learning Research](https://github.com/lbianculli/us_equity_analysis)
 
+![](/images/ml_rocauc.PNG)
+
 This repository will walk through a holistic process of preprocessing and premodeling data in preparation for feeding a machine learning algorithm. After premodeling various models are explored, the best of which is thoroughly evaluated. The files within the repo, which follow standard steps for machine learning analysis, can be broken down as follows:
 
 1. Preprocessing: Perform fundamental data preprocessing starting with previously-scraped US pricing, macro, and fundamental data. This short notebook walks through how to deal with missing values, handling outliers, scaling data, and augmenting data with additional metrics based on data collected from financial statements.
