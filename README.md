@@ -10,7 +10,7 @@ This walkthrough starts by first scraping put and call pricing data for commonly
 
 ## [Project 2 - Machine Learning - Financial Statement Regression](https://github.com/lbianculli/us_equity_regression)
 
-![](/images/ml_rocauc.PNG)
+![]()
 
 The US Equity Regression Repository aims to use machine learning regression algorithms to predict the next-period z-score of free cash flow per share. The idea is that companies with relatively good FCF per share compared to historical data will perform better than their counterparts. The main processes undergone in this repository are outlined as follows:
 
@@ -21,7 +21,7 @@ Machine Learning Modeling and Evaluation: With the fully trained model and holdo
 
 ## [Project 3 - US Machine Learning - US Equity Classification](https://github.com/lbianculli/us_equity_analysis)
 
-![]()
+![](/images/ml_rocauc.PNG)
 
 This repository will walk through a holistic process of preprocessing and premodeling data in preparation for feeding a machine learning algorithm. After premodeling various models are explored, the best of which is thoroughly evaluated. The files within the repo, which follow standard steps for machine learning analysis, can be broken down as follows:
 
