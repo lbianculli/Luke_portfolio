@@ -20,7 +20,7 @@ The US Equity Regression Repository aims to use machine learning regression algo
 
 3. Premodeling: A longer notebook in which many of the steps may also be classified as preprocessing. The focus of this code is to specifically prepare our data for feeding through a Machine Learning model in Python. This notebook contains code focused on evaluating predictive power of features, tailoring the feature space, and using SKLearn's StackingRegressor to train a model that can be used on go-forward data.
 
-4.Machine Learning Modeling and Evaluation: With the fully trained model and holdout data available, this notebook starts by confirming efficiacy of the model on the holdout data, after which the performance of the model is analyzed according to various metrics.
+4. Machine Learning Modeling and Evaluation: With the fully trained model and holdout data available, this notebook starts by confirming efficiacy of the model on the holdout data, after which the performance of the model is analyzed according to various metrics.
 
 ## [Project 3 - US Machine Learning - US Equity Classification](https://github.com/lbianculli/us_equity_analysis)
 
