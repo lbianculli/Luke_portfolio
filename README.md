@@ -9,11 +9,19 @@ A tutorial notebook that examines how options data can be scraped using Python a
 This walkthrough starts by first scraping put and call pricing data for commonly-traded index equities (SPY, QQQ, etc.). After the data is scraped, pandas DataFrames are put together for puts and calls. From there, we explore how to turn that code into a Class and expand upon it to implement trading strategies such as credit spreads and iron condors. Finally, we run through examples before delving into some analysis that examines the efficacies of potential strategies. By the end of this notebook, I hope that it is clearly conveyed how options can be traded in an everyday account to augment a portfolio and how such strategies would be implmented and analyzed with Python.
 
 ## [Project 2 - Machine Learning - Financial Statement Regression](https://github.com/lbianculli/us_equity_regression)
-@TODO
+
+![](/images/ml_rocauc.PNG)
+
+The US Equity Regression Repository aims to use machine learning regression algorithms to predict the next-period z-score of free cash flow per share. The idea is that companies with relatively good FCF per share compared to historical data will perform better than their counterparts. The main processes undergone in this repository are outlined as follows:
+
+Data gathering and Consolidation: Perform fundamental data preprocessing starting with previously-scraped US pricing and fundamental data.
+Preprocessing: This notebook walks imputing missing/NaN values, handling outliers with DBSCAN, scaling data, and using feature engineering to augment the dataset. There is particular emphasis in this notebook to use data visualizations on our data-tailoring journey.
+Premodeling: A longer notebook in which many of the steps may also be classified as preprocessing. The focus of this code is to specifically prepare our data for feeding through a Machine Learning model in Python. This notebook contains code focused on evaluating predictive power of features, tailoring the feature space, and using SKLearn's StackingRegressor to train a model that can be used on go-forward data.
+Machine Learning Modeling and Evaluation: With the fully trained model and holdout data available, this notebook starts by confirming efficiacy of the model on the holdout data, after which the performance of the model is analyzed according to various metrics.
 
 ## [Project 3 - US Machine Learning - US Equity Classification](https://github.com/lbianculli/us_equity_analysis)
 
-![](/images/ml_rocauc.PNG)
+![]()
 
 This repository will walk through a holistic process of preprocessing and premodeling data in preparation for feeding a machine learning algorithm. After premodeling various models are explored, the best of which is thoroughly evaluated. The files within the repo, which follow standard steps for machine learning analysis, can be broken down as follows:
 
